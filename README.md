@@ -9,7 +9,7 @@ It adds the following methods to the `String` object
 
 ### Example 
 ```js
-const sentence = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit soluta ab exercitationem sequi expedita accusantium excepturi, repellat voluptas suscipit omnis provident, quidem vero accusamus ipsa, eligendi aspernatur eum necessitatibus enim!"
+const sentence = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit soluta ab exercitationem"
 const shortWords = sentence.subWords(10)
 
 console.log(shortWords)
