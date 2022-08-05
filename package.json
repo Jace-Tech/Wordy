@@ -1,0 +1,31 @@
+{
+  "name": "@jace.dev/wordy",
+  "version": "1.0.0",
+  "main": "./dist/wordy.js",
+  "author": "Chidindu Emmanuel Aneke <86878828+Jace-Tech@users.noreply.github.com>",
+  "license": "MIT",
+  "description": "A script to extra methods to the `String` object",
+  "keywords": [
+    "wordy",
+    "word trim",
+    "word trimer",
+    "trim long words",
+    "sentence shortner",
+    "shorten words"
+  ],
+  "homepage": "https://github.com/Jace-Tech/",
+  "bugs": {
+    "url": "https://github.com/Jace-Tech/Wordy.git/issues",
+    "email": "alexjace151@gmail.com"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jace-Tech/Wordy.git"
+  },
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

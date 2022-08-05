@@ -2,6 +2,40 @@
 
 A script to extra methods to the `String` object
 
+## Installation
+
+`YARN`
+```sh
+    yarn add @jace.dev/wordy
+```
+
+`NPM`
+```sh
+    npm i @jace.dev/wordy
+```
+
+`PNPM`
+```sh
+    pnpm i @jace.dev/wordy
+```
+
+## Usage
+`Node JS`
+```js
+    require('@jace.dev/wordy');
+
+    const str = 'Hello World';
+    console.log(str.subWords(1)); // 'Hello'
+```
+`HTML`
+```html
+    <script src="https://raw.githubusercontent.com/Jace-Tech/Wordy/main/dist/wordy.js"></script>
+    <script>
+        const str = 'Hello World';
+        console.log(str.subWords(1)); // 'Hello'
+    </script>
+```
+
 ## Features
 It adds the following methods to the `String` object
 
