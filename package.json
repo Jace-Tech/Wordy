@@ -1,6 +1,6 @@
 {
   "name": "@jace.dev/wordy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/wordy.js",
   "author": "Chidindu Emmanuel Aneke <86878828+Jace-Tech@users.noreply.github.com>",
   "license": "MIT",
@@ -18,8 +18,7 @@
     "url": "https://github.com/Jace-Tech/Wordy.git/issues",
     "email": "alexjace151@gmail.com"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/Jace-Tech/Wordy.git"
