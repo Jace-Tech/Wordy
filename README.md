@@ -60,3 +60,14 @@ const words = query.wordsInBetween("SELECT", "FROM")
 console.log(words)
 // email, salary, employee_id
 ```
+
+- `.toCapitalize()`: Returns the strings in capitalized form
+
+### Example 
+```js
+const query = "god of war"
+const result = query.toCapitalize()
+
+console.log(result)
+// God Of War
+```

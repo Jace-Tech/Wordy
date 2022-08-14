@@ -23,13 +23,26 @@ const wordsInBetween = (start: string, end: string, str: string): string => {
     return str.substring(startIndex, endIndex).trim()
 }
 
+/**
+ * @returns The strings in between the start and end strings
+ */
+const toCapitalize = (str: string): string => {
+    const strArray = str.split(" ")
+    return strArray.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")
+}
+
 interface String {
     subWords: (count: number) => string,
-    wordsInBetween: (start: string, end: string) => string
+    wordsInBetween: (start: string, end: string) => string,
+    toCapitalize: () => string
 }
 
 String.prototype.subWords = function (count: number) {
     return subWords(count, this as string)
+}
+
+String.prototype.toCapitalize = function () {
+    return toCapitalize(this as string)
 }
 
 String.prototype.wordsInBetween = function (start: string, end: string) {
